@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(145, 3, 10);
+    margin: 20px;
+}
+
+.container {
+    display: inline-block;
+
+
+
+    /*
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+    align-items: baseline;
+
+    flex-direction: column; 
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+
+
+
+    */
+}
+
+.box {
+    background-color: rgb(146, 75, 27);
+    border-radius: 5px;
+    min-width: 15%;
+    min-height: 40%;
+    margin: 0px 10px;
+}
+.box17{
+    flex-grow: 2;
+}
+
+.cont1{
+    display: flex;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: none;
+    width: 461px;
+    height: 161px;
+    padding: 19px;
+    margin: 19px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.cont2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: none;
+    width: 461px;
+    height: 161px;
+    padding: 19px;
+    margin: 19px;
+    justify-content: space-around;
+}
+.cont3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: none;
+    width: 461px;
+    height: 161px;
+    padding: 19px;
+    margin: 19px;
+    align-content: center;
+    justify-content: flex-end
+
+
+}
+.cont4{
+    display: flex;
+    flex-wrap: wrap;background-color: chartreuse;
+    border-radius: 10px;
+    border: none;
+    width: 461px;
+    height: 161px;
+    padding: 19px;
+    margin: 19px;
+    justify-content: space-between;
+}
+.box12 {
+    align-self: flex-end;
+}
+
+.box11{
+    align-self: center;
+}
+.box10{
+    align-self: center;
+}
+
+.cont5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: none;
+    width: 461px;
+    height: 161px;
+    padding: 19px;
+    margin: 19px;
+    justify-content: space-evenly;
+}
+.box14{
+    align-self: center;
+}
+.cont6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    width: 461px;
+    height: 161px;
+    padding: 19px;
+    margin: 19px;
+ align-content: center;
+}
+
+.box17{
+flex-grow: 3;
+}
+
+p{
+    color: #fff;
+    text-align: center;
+}
+
